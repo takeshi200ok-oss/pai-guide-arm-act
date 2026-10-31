@@ -1,0 +1,438 @@
+{
+ "created": "2026-10-25T07:11:53",
+ "joint_order": [
+  "crane_plus_joint1",
+  "crane_plus_joint2",
+  "crane_plus_joint4",
+  "crane_plus_joint3"
+ ],
+ "settle_window": 1.0,
+ "still_tol": 0.001,
+ "criteria": {
+  "tol": 0.05,
+  "hold": 0.5,
+  "timeout": 8.0,
+  "record": 10.0,
+  "status": "provisional"
+ },
+ "directions": {
+  "P": {
+   "target": {
+    "crane_plus_joint1": 0.8,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0,
+    "crane_plus_joint3": 0.6
+   },
+   "reference": {
+    "crane_plus_joint1": 0.8000000000000004,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0,
+    "crane_plus_joint3": 0.5999999999999998
+   },
+   "reference_minus_target": {
+    "crane_plus_joint1": 3.3306690738754696e-16,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0,
+    "crane_plus_joint3": -2.220446049250313e-16
+   },
+   "between_run_spread": {
+    "crane_plus_joint1": 0.0,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0,
+    "crane_plus_joint3": 0.0
+   },
+   "all_still": true,
+   "runs": [
+    {
+     "file": "teacher_P_dev_trial0.json",
+     "start": {
+      "crane_plus_joint1": 0.15,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": 0.05
+     },
+     "record_end": 11.972,
+     "settled": {
+      "crane_plus_joint1": 0.8000000000000003,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": 0.5999999999999998
+     },
+     "tail_spread": {
+      "crane_plus_joint1": 0.0,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": 0.0
+     },
+     "still": true,
+     "settled_minus_target": {
+      "crane_plus_joint1": 2.220446049250313e-16,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": -2.220446049250313e-16
+     },
+     "time_within_0.01_of_target": 3.852,
+     "time_within_0.002_of_target": 4.652,
+     "rtf": 0.8131549335250955,
+     "criteria_check": {
+      "success": true,
+      "reach_time": 3.0120000000000005
+     }
+    },
+    {
+     "file": "teacher_P_dev_trial1.json",
+     "start": {
+      "crane_plus_joint1": -0.15,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": 0.1
+     },
+     "record_end": 11.996,
+     "settled": {
+      "crane_plus_joint1": 0.8000000000000003,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": 0.5999999999999998
+     },
+     "tail_spread": {
+      "crane_plus_joint1": 0.0,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": 0.0
+     },
+     "still": true,
+     "settled_minus_target": {
+      "crane_plus_joint1": 2.220446049250313e-16,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": -2.220446049250313e-16
+     },
+     "time_within_0.01_of_target": 3.956,
+     "time_within_0.002_of_target": 4.756,
+     "rtf": 0.9427014381871901,
+     "criteria_check": {
+      "success": true,
+      "reach_time": 3.156000000000006
+     }
+    },
+    {
+     "file": "teacher_P_home_trial0.json",
+     "start": {
+      "crane_plus_joint1": 0.0,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint3": 0.0,
+      "crane_plus_joint4": 0.0
+     },
+     "record_end": 11.997,
+     "settled": {
+      "crane_plus_joint1": 0.8000000000000003,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": 0.5999999999999998
+     },
+     "tail_spread": {
+      "crane_plus_joint1": 0.0,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": 0.0
+     },
+     "still": true,
+     "settled_minus_target": {
+      "crane_plus_joint1": 2.220446049250313e-16,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": -2.220446049250313e-16
+     },
+     "time_within_0.01_of_target": 3.877,
+     "time_within_0.002_of_target": 4.637,
+     "rtf": 0.9290294353494952,
+     "criteria_check": {
+      "success": true,
+      "reach_time": 3.076999999999998
+     }
+    },
+    {
+     "file": "teacher_P_home_trial1.json",
+     "start": {
+      "crane_plus_joint1": 0.0,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint3": 0.0,
+      "crane_plus_joint4": 0.0
+     },
+     "record_end": 11.987,
+     "settled": {
+      "crane_plus_joint1": 0.8000000000000003,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": 0.5999999999999998
+     },
+     "tail_spread": {
+      "crane_plus_joint1": 0.0,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": 0.0
+     },
+     "still": true,
+     "settled_minus_target": {
+      "crane_plus_joint1": 2.220446049250313e-16,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": -2.220446049250313e-16
+     },
+     "time_within_0.01_of_target": 3.867,
+     "time_within_0.002_of_target": 4.667,
+     "rtf": 0.939356658470229,
+     "criteria_check": {
+      "success": true,
+      "reach_time": 3.0670000000000073
+     }
+    },
+    {
+     "file": "teacher_P_home_trial2.json",
+     "start": {
+      "crane_plus_joint1": 0.0,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint3": 0.0,
+      "crane_plus_joint4": 0.0
+     },
+     "record_end": 11.988,
+     "settled": {
+      "crane_plus_joint1": 0.8000000000000003,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": 0.5999999999999998
+     },
+     "tail_spread": {
+      "crane_plus_joint1": 0.0,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": 0.0
+     },
+     "still": true,
+     "settled_minus_target": {
+      "crane_plus_joint1": 2.220446049250313e-16,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": -2.220446049250313e-16
+     },
+     "time_within_0.01_of_target": 3.828,
+     "time_within_0.002_of_target": 4.588,
+     "rtf": 0.9278839682978023,
+     "criteria_check": {
+      "success": true,
+      "reach_time": 3.068000000000012
+     }
+    }
+   ]
+  },
+  "N": {
+   "target": {
+    "crane_plus_joint1": -0.8,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0,
+    "crane_plus_joint3": 0.6
+   },
+   "reference": {
+    "crane_plus_joint1": -0.8000000000000004,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0,
+    "crane_plus_joint3": 0.5999999999999998
+   },
+   "reference_minus_target": {
+    "crane_plus_joint1": -3.3306690738754696e-16,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0,
+    "crane_plus_joint3": -2.220446049250313e-16
+   },
+   "between_run_spread": {
+    "crane_plus_joint1": 0.0,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0,
+    "crane_plus_joint3": 0.0
+   },
+   "all_still": true,
+   "runs": [
+    {
+     "file": "teacher_N_dev_trial0.json",
+     "start": {
+      "crane_plus_joint1": 0.15,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": 0.05
+     },
+     "record_end": 11.981,
+     "settled": {
+      "crane_plus_joint1": -0.8000000000000003,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": 0.5999999999999998
+     },
+     "tail_spread": {
+      "crane_plus_joint1": 0.0,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": 0.0
+     },
+     "still": true,
+     "settled_minus_target": {
+      "crane_plus_joint1": -2.220446049250313e-16,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": -2.220446049250313e-16
+     },
+     "time_within_0.01_of_target": 4.061,
+     "time_within_0.002_of_target": 4.901,
+     "rtf": 0.9403518196565332,
+     "criteria_check": {
+      "success": true,
+      "reach_time": 3.2210000000000036
+     }
+    },
+    {
+     "file": "teacher_N_dev_trial1.json",
+     "start": {
+      "crane_plus_joint1": -0.15,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": 0.1
+     },
+     "record_end": 11.999,
+     "settled": {
+      "crane_plus_joint1": -0.8000000000000003,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": 0.5999999999999998
+     },
+     "tail_spread": {
+      "crane_plus_joint1": 0.0,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": 0.0
+     },
+     "still": true,
+     "settled_minus_target": {
+      "crane_plus_joint1": -2.220446049250313e-16,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": -2.220446049250313e-16
+     },
+     "time_within_0.01_of_target": 3.719,
+     "time_within_0.002_of_target": 4.479,
+     "rtf": 0.9401480108984386,
+     "criteria_check": {
+      "success": true,
+      "reach_time": 2.9189999999999827
+     }
+    },
+    {
+     "file": "teacher_N_home_trial0.json",
+     "start": {
+      "crane_plus_joint1": 0.0,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint3": 0.0,
+      "crane_plus_joint4": 0.0
+     },
+     "record_end": 11.992,
+     "settled": {
+      "crane_plus_joint1": -0.8000000000000003,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": 0.5999999999999998
+     },
+     "tail_spread": {
+      "crane_plus_joint1": 0.0,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": 0.0
+     },
+     "still": true,
+     "settled_minus_target": {
+      "crane_plus_joint1": -2.220446049250313e-16,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": -2.220446049250313e-16
+     },
+     "time_within_0.01_of_target": 3.952,
+     "time_within_0.002_of_target": 4.792,
+     "rtf": 0.9427551355797666,
+     "criteria_check": {
+      "success": true,
+      "reach_time": 3.1119999999999948
+     }
+    },
+    {
+     "file": "teacher_N_home_trial1.json",
+     "start": {
+      "crane_plus_joint1": 0.0,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint3": 0.0,
+      "crane_plus_joint4": 0.0
+     },
+     "record_end": 11.965,
+     "settled": {
+      "crane_plus_joint1": -0.8000000000000003,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": 0.5999999999999998
+     },
+     "tail_spread": {
+      "crane_plus_joint1": 0.0,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": 0.0
+     },
+     "still": true,
+     "settled_minus_target": {
+      "crane_plus_joint1": -2.220446049250313e-16,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": -2.220446049250313e-16
+     },
+     "time_within_0.01_of_target": 3.885,
+     "time_within_0.002_of_target": 4.725,
+     "rtf": 0.9226107739833125,
+     "criteria_check": {
+      "success": true,
+      "reach_time": 3.085000000000008
+     }
+    },
+    {
+     "file": "teacher_N_home_trial2.json",
+     "start": {
+      "crane_plus_joint1": 0.0,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint3": 0.0,
+      "crane_plus_joint4": 0.0
+     },
+     "record_end": 11.977,
+     "settled": {
+      "crane_plus_joint1": -0.8000000000000003,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": 0.5999999999999998
+     },
+     "tail_spread": {
+      "crane_plus_joint1": 0.0,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": 0.0
+     },
+     "still": true,
+     "settled_minus_target": {
+      "crane_plus_joint1": -2.220446049250313e-16,
+      "crane_plus_joint2": 0.0,
+      "crane_plus_joint4": 0.0,
+      "crane_plus_joint3": -2.220446049250313e-16
+     },
+     "time_within_0.01_of_target": 3.857,
+     "time_within_0.002_of_target": 4.657,
+     "rtf": 0.9443094478150689,
+     "criteria_check": {
+      "success": true,
+      "reach_time": 3.0570000000000164
+     }
+    }
+   ]
+  }
+ }
+}

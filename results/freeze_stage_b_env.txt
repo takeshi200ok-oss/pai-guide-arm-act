@@ -1,0 +1,23 @@
+# freeze_stage_b.txt の補足: 学習・推論に使った pixi 環境の情報（2026-10-25T14:16:10+00:00 取得）
+# 元の凍結記録では PATH に pixi が無いシェルで実行したため取得に失敗していた。再学習・再評価はしていない。
+pixi pixi 0.81.0
+python 3.10.17 /home/ubuntu/pai_training/.pixi/envs/default/bin/python
+PYTHONNOUSERSITE 1
+torch 2.7.0+cu126 file /home/ubuntu/pai_training/.pixi/envs/default/lib/python3.10/site-packages/torch/__init__.py
+torch threads (default) 8 cuda_available False
+lerobot 0.1.0
+numpy 2.2.6
+datasets 3.6.0
+rosbags 0.10.10
+pyyaml 6.0.2
+pandas 2.2.3
+platform Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.35
+lerobot commit 768e36660d1408c71118a2760f831c037fbfa17d
+pai_training commit b4d6b5459066a80433475a83567504988875248a
+45b9e52d80edd9df7e9721989e49b197003814fbdfa1a5e632a5fa72e82a6a2b  pixi.lock
+act_P_A_chunk_s2000: torch 2.7.0+cu126 threads 8 steps 2000
+act_N_A_chunk_s2000: torch 2.7.0+cu126 threads 8 steps 2000
+act_P_B_chunk_s2000: torch 2.7.0+cu126 threads 8 steps 2000
+act_N_B_chunk_s2000: torch 2.7.0+cu126 threads 8 steps 2000
+model name	: AMD Ryzen 7 7735HS with Radeon Graphics
+16

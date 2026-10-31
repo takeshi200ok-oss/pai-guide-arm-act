@@ -1,0 +1,89 @@
+ WARN Encountered 1 warning while parsing the manifest:
+  ⚠ the `[system-requirements]` table is deprecated in favor of virtual
+  │ packages on `platforms`
+    ╭─[/home/ubuntu/pai_training/pyproject.toml:22:1]
+ 21 │     
+ 22 │ ╭─▶ [tool.pixi.system-requirements]
+ 23 │ ├─▶ libc = { family = "glibc", version = "2.31" }
+    · ╰──── declare these on the `platforms` entries instead
+ 24 │     
+    ╰────
+  help: e.g. platforms = [{ name = "my-linux-64", platform = "linux-64", glibc
+        = "2.31" }, { name = "my-linux-aarch64", platform = "linux-aarch64",
+        glibc = "2.31" }]
+
+ WARN the lock file is up-to-date but uses an older format (v6), run `pixi lock` to upgrade to v7 for improved reproducibility
+/home/ubuntu/guide_arm/scripts/convert.py:40: DeprecationWarning: Global serialization/deserialization functions have been replaced with
+explicit typestores.
+
+If you are deserializing messages from an AnyReader instance, simply
+use its `.deserialize(data, typename)` method.
+
+Otherwise instantiate a type store and use its methods:
+
+from rosbags.typesys import Stores, get_typestore
+
+typestore = get_typestore(Stores.ROS2_FOXY)
+typestore.deserialize_cdr(data, typename)
+  msg = deserialize_cdr(raw, conn.msgtype)
+Map:   0%|          | 0/100 [00:00<?, ? examples/s]Map:  78%|███████▊  | 78/100 [00:00<00:00, 764.45 examples/s]Map: 100%|██████████| 100/100 [00:00<00:00, 783.95 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 668.20ba/s]
+ep000: 100 frames (trimmed 11)
+Map:   0%|          | 0/100 [00:00<?, ? examples/s]Map: 100%|██████████| 100/100 [00:00<00:00, 1470.06 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 1504.95ba/s]
+ep001: 100 frames (trimmed 10)
+Map:   0%|          | 0/100 [00:00<?, ? examples/s]Map:  79%|███████▉  | 79/100 [00:00<00:00, 773.42 examples/s]Map: 100%|██████████| 100/100 [00:00<00:00, 686.73 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 781.06ba/s]
+ep002: 100 frames (trimmed 11)
+Map:   0%|          | 0/100 [00:00<?, ? examples/s]Map: 100%|██████████| 100/100 [00:00<00:00, 1136.14 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 1372.03ba/s]
+ep003: 100 frames (trimmed 10)
+Map:   0%|          | 0/101 [00:00<?, ? examples/s]Map: 100%|██████████| 101/101 [00:00<00:00, 1423.27 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 1544.29ba/s]
+ep004: 101 frames (trimmed 10)
+Map:   0%|          | 0/100 [00:00<?, ? examples/s]Map: 100%|██████████| 100/100 [00:00<00:00, 1483.55 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 1605.17ba/s]
+ep005: 100 frames (trimmed 11)
+Map:   0%|          | 0/100 [00:00<?, ? examples/s]Map:  98%|█████████▊| 98/100 [00:00<00:00, 953.35 examples/s]Map: 100%|██████████| 100/100 [00:00<00:00, 902.71 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 1106.09ba/s]
+ep006: 100 frames (trimmed 10)
+Map:   0%|          | 0/99 [00:00<?, ? examples/s]Map: 100%|██████████| 99/99 [00:00<00:00, 1529.04 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 1439.36ba/s]
+ep007: 99 frames (trimmed 10)
+Map:   0%|          | 0/101 [00:00<?, ? examples/s]Map: 100%|██████████| 101/101 [00:00<00:00, 1651.86 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 1186.17ba/s]
+ep008: 101 frames (trimmed 10)
+Map:   0%|          | 0/101 [00:00<?, ? examples/s]Map: 100%|██████████| 101/101 [00:00<00:00, 1180.30 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 901.03ba/s]
+ep009: 101 frames (trimmed 10)
+Map:   0%|          | 0/100 [00:00<?, ? examples/s]Map: 100%|██████████| 100/100 [00:00<00:00, 1557.60 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 1458.89ba/s]
+ep010: 100 frames (trimmed 10)
+Map:   0%|          | 0/100 [00:00<?, ? examples/s]Map: 100%|██████████| 100/100 [00:00<00:00, 1510.40 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 1292.94ba/s]
+ep011: 100 frames (trimmed 11)
+Map:   0%|          | 0/100 [00:00<?, ? examples/s]Map: 100%|██████████| 100/100 [00:00<00:00, 1295.05 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 959.79ba/s]
+ep012: 100 frames (trimmed 11)
+Map:   0%|          | 0/101 [00:00<?, ? examples/s]Map: 100%|██████████| 101/101 [00:00<00:00, 1147.70 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 853.19ba/s]
+ep013: 101 frames (trimmed 10)
+Map:   0%|          | 0/100 [00:00<?, ? examples/s]Map: 100%|██████████| 100/100 [00:00<00:00, 998.00 examples/s]Map: 100%|██████████| 100/100 [00:00<00:00, 968.06 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 767.63ba/s]
+ep014: 100 frames (trimmed 10)
+Map:   0%|          | 0/101 [00:00<?, ? examples/s]Map: 100%|██████████| 101/101 [00:00<00:00, 1217.64 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 1331.95ba/s]
+ep015: 101 frames (trimmed 10)
+Map:   0%|          | 0/100 [00:00<?, ? examples/s]Map: 100%|██████████| 100/100 [00:00<00:00, 1447.94 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 1094.55ba/s]
+ep016: 100 frames (trimmed 11)
+Map:   0%|          | 0/101 [00:00<?, ? examples/s]Map: 100%|██████████| 101/101 [00:00<00:00, 1193.09 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 1307.86ba/s]
+ep017: 101 frames (trimmed 10)
+Map:   0%|          | 0/101 [00:00<?, ? examples/s]Map: 100%|██████████| 101/101 [00:00<00:00, 1610.43 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 1381.52ba/s]
+ep018: 101 frames (trimmed 10)
+Map:   0%|          | 0/100 [00:00<?, ? examples/s]Map: 100%|██████████| 100/100 [00:00<00:00, 1482.28 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 1042.58ba/s]
+ep019: 100 frames (trimmed 10)
+saved 20 episodes to /home/ubuntu/guide_runs/datasets/guide_N_A_trim

@@ -1,0 +1,1 @@
+{"trial": 0, "status": "success", "reach_time": 3.1700000000000728, "rtf": 0.9410554699441087, "arm_publishers": ["/crane_plus_act_infer"], "err_ref": 0.0065, "err_target": 0.0065}

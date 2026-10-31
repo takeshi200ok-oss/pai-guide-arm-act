@@ -1,0 +1,18 @@
+# 開発用の試作: P 方向、home から5エピソード、500ステップ（本実験には使わない）
+dataset_root: "~/guide_runs/datasets/guide_P_dev"
+repo_id: "guide_P_dev"
+output_directory: "~/guide_runs/checkpoints/act_P_dev_s500"
+seed: 0
+device: "cpu"
+training_steps: 500
+log_freq: 100
+num_workers: 2
+batch_size: 2
+chunk_size: 16
+n_action_steps: 1
+learning_rate: 0.0001
+delta_timestamps:
+  observation.environment_state: [0.0]
+  observation.state: [0.0]
+  # 講義資料 p.50 の指示どおり 0.0 始まり（n_action_steps: 1 では先頭＝現在の指令を実行する）
+  action: [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5]

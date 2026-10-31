@@ -1,0 +1,21 @@
+# Stage B: N 方向、初期姿勢を start_poses.json の train 一覧（20姿勢）で変えた教師データ。それ以外は train_N_A.yaml（v7）と同じ
+dataset_root: "~/guide_runs/datasets/guide_N_B_lin_trim2"
+repo_id: "guide_N_B_lin_trim2"
+output_directory: "~/guide_runs/checkpoints/act_N_B_chunk_s2000"
+seed: 0
+device: "cpu"
+training_steps: 2000
+log_freq: 100
+num_workers: 2
+batch_size: 8
+# 予測した指令列のうち先頭 n_action_steps 個（0.5 秒分）を続けて実行してから次を予測する（ACT のチャンク実行）
+chunk_size: 20
+n_action_steps: 10
+learning_rate: 0.0001
+# 正規化の標準偏差の下限 [rad]（ほぼ一定の関節の微小な揺れを手がかりにさせない）
+min_std: 0.05
+delta_timestamps:
+  observation.environment_state: [0.0]
+  observation.state: [0.0]
+  # 0.0 始まり（講義資料 p.50 と同じ）。チャンクを 20Hz で順に実行するので、間隔は制御周期 0.05 秒にそろえる
+  action: [0.0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]

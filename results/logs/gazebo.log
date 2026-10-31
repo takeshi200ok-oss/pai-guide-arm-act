@@ -1,0 +1,106 @@
+[INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2026-10-25-13-00-43-232122-4afc0550d265-40285
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ign gazebo -r -s-1]: process started with pid [40316]
+[INFO] [create-2]: process started with pid [40318]
+[INFO] [robot_state_publisher-3]: process started with pid [40320]
+[INFO] [ros2 run controller_manager spawner joint_state_broadcaster-4]: process started with pid [40323]
+[INFO] [ros2 run controller_manager spawner crane_plus_arm_controller-5]: process started with pid [40325]
+[INFO] [ros2 run controller_manager spawner crane_plus_gripper_controller-6]: process started with pid [40328]
+[INFO] [parameter_bridge-7]: process started with pid [40331]
+[create-2] [INFO] [1792933243.583924343] [ros_gz_sim]: Requesting list of world names.
+[robot_state_publisher-3] [INFO] [1792933243.613645824] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-3] [INFO] [1792933243.613831588] [robot_state_publisher]: got segment crane_plus_base
+[robot_state_publisher-3] [INFO] [1792933243.613849264] [robot_state_publisher]: got segment crane_plus_link1
+[robot_state_publisher-3] [INFO] [1792933243.613858673] [robot_state_publisher]: got segment crane_plus_link2
+[robot_state_publisher-3] [INFO] [1792933243.613866589] [robot_state_publisher]: got segment crane_plus_link3
+[robot_state_publisher-3] [INFO] [1792933243.613874124] [robot_state_publisher]: got segment crane_plus_link4
+[robot_state_publisher-3] [INFO] [1792933243.613881649] [robot_state_publisher]: got segment crane_plus_link_endtip
+[robot_state_publisher-3] [INFO] [1792933243.613889686] [robot_state_publisher]: got segment crane_plus_link_hand
+[robot_state_publisher-3] [INFO] [1792933243.613897772] [robot_state_publisher]: got segment world
+[parameter_bridge-7] [INFO] [1792933243.661049427] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/clock (ignition.msgs.Clock) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[create-2] [INFO] [1792933244.271461180] [ros_gz_sim]: Waiting messages on topic [/robot_description].
+[create-2] [INFO] [1792933244.274719750] [ros_gz_sim]: Requested creation of entity.
+[create-2] [INFO] [1792933244.274774431] [ros_gz_sim]: OK creation of entity.
+[INFO] [create-2]: process has finished cleanly [pid 40318]
+[ros2 run controller_manager spawner crane_plus_gripper_controller-6] [INFO] [1792933244.609788508] [spawner_crane_plus_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[ros2 run controller_manager spawner crane_plus_arm_controller-5] [INFO] [1792933244.613215583] [spawner_crane_plus_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[ros2 run controller_manager spawner joint_state_broadcaster-4] [INFO] [1792933244.613871278] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[ign gazebo -r -s-1] [INFO] [1792933245.928979433] [GazeboSimROS2ControlPlugin]: robot_param_node is robot_state_publisher
+[ign gazebo -r -s-1] [INFO] [1792933245.929043041] [GazeboSimROS2ControlPlugin]: robot_param_node is robot_description
+[ign gazebo -r -s-1] [INFO] [1792933245.943281143] [gz_ros2_control]: [ign_ros2_control] Fixed joint [base_link_to_world_joint] (Entity=49)] is skipped
+[ign gazebo -r -s-1] [INFO] [1792933246.048379924] [gz_ros2_control]: connected to service!! robot_state_publisher asking for robot_description
+[ign gazebo -r -s-1] [INFO] [1792933246.049636427] [gz_ros2_control]: Received URDF from param server
+[ign gazebo -r -s-1] [INFO] [1792933246.061461213] [gz_ros2_control]: The position_proportional_gain has been set to: 0.1
+[ign gazebo -r -s-1] [INFO] [1792933246.061581145] [gz_ros2_control]: Loading joint: crane_plus_joint1
+[ign gazebo -r -s-1] [INFO] [1792933246.061610103] [gz_ros2_control]: 	State:
+[ign gazebo -r -s-1] [INFO] [1792933246.061618911] [gz_ros2_control]: 		 position
+[ign gazebo -r -s-1] [INFO] [1792933246.061626366] [gz_ros2_control]: 		 velocity
+[ign gazebo -r -s-1] [INFO] [1792933246.061632137] [gz_ros2_control]: 		 effort
+[ign gazebo -r -s-1] [INFO] [1792933246.061638079] [gz_ros2_control]: 	Command:
+[ign gazebo -r -s-1] [INFO] [1792933246.061643410] [gz_ros2_control]: 		 position
+[ign gazebo -r -s-1] [INFO] [1792933246.061656507] [gz_ros2_control]: Loading joint: crane_plus_joint2
+[ign gazebo -r -s-1] [INFO] [1792933246.061662068] [gz_ros2_control]: 	State:
+[ign gazebo -r -s-1] [INFO] [1792933246.061667288] [gz_ros2_control]: 		 position
+[ign gazebo -r -s-1] [INFO] [1792933246.061672870] [gz_ros2_control]: 		 velocity
+[ign gazebo -r -s-1] [INFO] [1792933246.061678060] [gz_ros2_control]: 		 effort
+[ign gazebo -r -s-1] [INFO] [1792933246.061683040] [gz_ros2_control]: 	Command:
+[ign gazebo -r -s-1] [INFO] [1792933246.061687940] [gz_ros2_control]: 		 position
+[ign gazebo -r -s-1] [INFO] [1792933246.061696728] [gz_ros2_control]: Loading joint: crane_plus_joint3
+[ign gazebo -r -s-1] [INFO] [1792933246.061701978] [gz_ros2_control]: 	State:
+[ign gazebo -r -s-1] [INFO] [1792933246.061707119] [gz_ros2_control]: 		 position
+[ign gazebo -r -s-1] [INFO] [1792933246.061712239] [gz_ros2_control]: 		 velocity
+[ign gazebo -r -s-1] [INFO] [1792933246.061717209] [gz_ros2_control]: 		 effort
+[ign gazebo -r -s-1] [INFO] [1792933246.061722420] [gz_ros2_control]: 	Command:
+[ign gazebo -r -s-1] [INFO] [1792933246.061727360] [gz_ros2_control]: 		 position
+[ign gazebo -r -s-1] [INFO] [1792933246.061735656] [gz_ros2_control]: Loading joint: crane_plus_joint4
+[ign gazebo -r -s-1] [INFO] [1792933246.061740767] [gz_ros2_control]: 	State:
+[ign gazebo -r -s-1] [INFO] [1792933246.061748292] [gz_ros2_control]: 		 position
+[ign gazebo -r -s-1] [INFO] [1792933246.061763613] [gz_ros2_control]: 		 velocity
+[ign gazebo -r -s-1] [INFO] [1792933246.061774114] [gz_ros2_control]: 		 effort
+[ign gazebo -r -s-1] [INFO] [1792933246.061782511] [gz_ros2_control]: 	Command:
+[ign gazebo -r -s-1] [INFO] [1792933246.061791168] [gz_ros2_control]: 		 position
+[ign gazebo -r -s-1] [INFO] [1792933246.061816049] [gz_ros2_control]: Loading joint: crane_plus_joint_hand
+[ign gazebo -r -s-1] [INFO] [1792933246.061830598] [gz_ros2_control]: 	State:
+[ign gazebo -r -s-1] [INFO] [1792933246.061839586] [gz_ros2_control]: 		 position
+[ign gazebo -r -s-1] [INFO] [1792933246.061848714] [gz_ros2_control]: 		 velocity
+[ign gazebo -r -s-1] [INFO] [1792933246.061858274] [gz_ros2_control]: 		 effort
+[ign gazebo -r -s-1] [INFO] [1792933246.061875609] [gz_ros2_control]: 	Command:
+[ign gazebo -r -s-1] [INFO] [1792933246.061888014] [gz_ros2_control]: 		 position
+[ign gazebo -r -s-1] [INFO] [1792933246.061976131] [resource_manager]: Initialize hardware 'crane_plus' 
+[ign gazebo -r -s-1] [WARN] [1792933246.062000230] [gz_ros2_control]: On init...
+[ign gazebo -r -s-1] [INFO] [1792933246.062063057] [resource_manager]: Successful initialization of hardware 'crane_plus'
+[ign gazebo -r -s-1] [INFO] [1792933246.062091885] [resource_manager]: 'configure' hardware 'crane_plus' 
+[ign gazebo -r -s-1] [INFO] [1792933246.062096324] [gz_ros2_control]: System Successfully configured!
+[ign gazebo -r -s-1] [INFO] [1792933246.062199275] [resource_manager]: Successful 'configure' of hardware 'crane_plus'
+[ign gazebo -r -s-1] [INFO] [1792933246.062217071] [resource_manager]: 'activate' hardware 'crane_plus' 
+[ign gazebo -r -s-1] [INFO] [1792933246.062225197] [resource_manager]: Successful 'activate' of hardware 'crane_plus'
+[ign gazebo -r -s-1] [INFO] [1792933246.062236651] [gz_ros2_control]: Loading controller_manager
+[ign gazebo -r -s-1] [INFO] [1792933246.115182765] [controller_manager]: Loading controller 'crane_plus_gripper_controller'
+[ign gazebo -r -s-1] [WARN] [1792933246.132616963] [crane_plus_gripper_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[ros2 run controller_manager spawner crane_plus_gripper_controller-6] [INFO] [1792933246.133910653] [spawner_crane_plus_gripper_controller]: [94mLoaded [1mcrane_plus_gripper_controller[0m
+[ign gazebo -r -s-1] [INFO] [1792933246.134712305] [controller_manager]: Loading controller 'crane_plus_arm_controller'
+[ign gazebo -r -s-1] [WARN] [1792933246.155548748] [crane_plus_arm_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[ign gazebo -r -s-1] [INFO] [1792933246.155968375] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[ros2 run controller_manager spawner crane_plus_arm_controller-5] [INFO] [1792933246.157154905] [spawner_crane_plus_arm_controller]: [94mLoaded [1mcrane_plus_arm_controller[0m
+[ign gazebo -r -s-1] [INFO] [1792933246.168135118] [controller_manager]: Configuring controller 'crane_plus_gripper_controller'
+[ign gazebo -r -s-1] [INFO] [1792933246.168387317] [crane_plus_gripper_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[ign gazebo -r -s-1] [INFO] [1792933246.168414702] [crane_plus_gripper_controller]: Command interfaces are [position] and state interfaces are [position].
+[ign gazebo -r -s-1] [INFO] [1792933246.168439101] [crane_plus_gripper_controller]: Using 'splines' interpolation method.
+[ros2 run controller_manager spawner joint_state_broadcaster-4] [INFO] [1792933246.169077296] [spawner_joint_state_broadcaster]: [94mLoaded [1mjoint_state_broadcaster[0m
+[ign gazebo -r -s-1] [INFO] [1792933246.170266338] [crane_plus_gripper_controller]: Controller state will be published at 50.00 Hz.
+[ign gazebo -r -s-1] [INFO] [1792933246.173779685] [crane_plus_gripper_controller]: Action status changes will be monitored at 20.00 Hz.
+[ign gazebo -r -s-1] [WARN] [1792933246.176993006] [gz_ros2_control]:  Desired controller update period (0.01 s) is slower than the gazebo simulation period (0.001 s).
+[ign gazebo -r -s-1] [INFO] [1792933246.178565596] [controller_manager]: Configuring controller 'crane_plus_arm_controller'
+[ign gazebo -r -s-1] [INFO] [1792933246.178709736] [crane_plus_arm_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[ign gazebo -r -s-1] [INFO] [1792933246.178727823] [crane_plus_arm_controller]: Command interfaces are [position] and state interfaces are [position].
+[ign gazebo -r -s-1] [INFO] [1792933246.178759276] [crane_plus_arm_controller]: Using 'splines' interpolation method.
+[ign gazebo -r -s-1] [INFO] [1792933246.179180917] [crane_plus_arm_controller]: Controller state will be published at 50.00 Hz.
+[ign gazebo -r -s-1] [INFO] [1792933246.181642727] [crane_plus_arm_controller]: Action status changes will be monitored at 20.00 Hz.
+[ign gazebo -r -s-1] [INFO] [1792933246.185749994] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[ign gazebo -r -s-1] [INFO] [1792933246.185899165] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[ros2 run controller_manager spawner crane_plus_gripper_controller-6] [INFO] [1792933246.220804928] [spawner_crane_plus_gripper_controller]: [92mConfigured and activated [1mcrane_plus_gripper_controller[0m
+[ros2 run controller_manager spawner crane_plus_arm_controller-5] [INFO] [1792933246.242802562] [spawner_crane_plus_arm_controller]: [92mConfigured and activated [1mcrane_plus_arm_controller[0m
+[ros2 run controller_manager spawner joint_state_broadcaster-4] [INFO] [1792933246.391720851] [spawner_joint_state_broadcaster]: [92mConfigured and activated [1mjoint_state_broadcaster[0m
+[INFO] [ros2 run controller_manager spawner crane_plus_gripper_controller-6]: process has finished cleanly [pid 40328]
+[INFO] [ros2 run controller_manager spawner crane_plus_arm_controller-5]: process has finished cleanly [pid 40325]
+[INFO] [ros2 run controller_manager spawner joint_state_broadcaster-4]: process has finished cleanly [pid 40323]

@@ -1,0 +1,40 @@
+ WARN Encountered 1 warning while parsing the manifest:
+  ⚠ the `[system-requirements]` table is deprecated in favor of virtual
+  │ packages on `platforms`
+    ╭─[/home/ubuntu/pai_training/pyproject.toml:22:1]
+ 21 │     
+ 22 │ ╭─▶ [tool.pixi.system-requirements]
+ 23 │ ├─▶ libc = { family = "glibc", version = "2.31" }
+    · ╰──── declare these on the `platforms` entries instead
+ 24 │     
+    ╰────
+  help: e.g. platforms = [{ name = "my-linux-64", platform = "linux-64", glibc
+        = "2.31" }, { name = "my-linux-aarch64", platform = "linux-aarch64",
+        glibc = "2.31" }]
+
+ WARN the lock file is up-to-date but uses an older format (v6), run `pixi lock` to upgrade to v7 for improved reproducibility
+WARNING:root:No accelerated backend detected. Using default cpu, this will be slow.
+WARNING:root:Device 'None' is not available. Switching to 'cpu'.
+Downloading data:   0%|          | 0/20 [00:00<?, ?files/s]Downloading data: 100%|██████████| 20/20 [00:00<00:00, 228572.43files/s]
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 2006 examples [00:00, 42203.50 examples/s]
+step: 0 loss: 80.738
+step: 100 loss: 2.666
+step: 200 loss: 2.354
+step: 300 loss: 1.991
+step: 400 loss: 1.747
+step: 500 loss: 1.368
+step: 600 loss: 0.907
+step: 700 loss: 0.798
+step: 800 loss: 0.710
+step: 900 loss: 0.598
+step: 1000 loss: 0.589
+step: 1100 loss: 0.426
+step: 1200 loss: 0.347
+step: 1300 loss: 0.362
+step: 1400 loss: 0.269
+step: 1500 loss: 0.302
+step: 1600 loss: 0.220
+step: 1700 loss: 0.229
+step: 1800 loss: 0.226
+step: 1900 loss: 0.208
+policy saved to /home/ubuntu/guide_runs/checkpoints/act_P_A_lin_s2000 (872s)

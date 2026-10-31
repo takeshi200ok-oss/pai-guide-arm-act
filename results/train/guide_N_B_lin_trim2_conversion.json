@@ -1,0 +1,262 @@
+{
+ "fps": 20,
+ "feature_names": [
+  "joint1",
+  "joint2",
+  "joint4",
+  "joint3",
+  "gripper"
+ ],
+ "joint_order": [
+  "crane_plus_joint1",
+  "crane_plus_joint2",
+  "crane_plus_joint4",
+  "crane_plus_joint3",
+  "crane_plus_joint_hand"
+ ],
+ "args": {
+  "trim_start_hold": true
+ },
+ "episodes": [
+  {
+   "bag": "/home/ubuntu/guide_runs/bags/guide_N_B_lin/ep000",
+   "frames": 99,
+   "trimmed_start_frames": 11,
+   "sim_start": 275.966,
+   "sim_end": 280.915,
+   "n_msgs": {
+    "/joint_states": 770,
+    "/crane_plus_arm_controller/joint_trajectory": 111,
+    "/crane_plus_gripper_controller/joint_trajectory": 111
+   }
+  },
+  {
+   "bag": "/home/ubuntu/guide_runs/bags/guide_N_B_lin/ep001",
+   "frames": 100,
+   "trimmed_start_frames": 11,
+   "sim_start": 289.059,
+   "sim_end": 294.009,
+   "n_msgs": {
+    "/joint_states": 738,
+    "/crane_plus_arm_controller/joint_trajectory": 111,
+    "/crane_plus_gripper_controller/joint_trajectory": 111
+   }
+  },
+  {
+   "bag": "/home/ubuntu/guide_runs/bags/guide_N_B_lin/ep002",
+   "frames": 98,
+   "trimmed_start_frames": 12,
+   "sim_start": 302.29900000000004,
+   "sim_end": 307.19800000000004,
+   "n_msgs": {
+    "/joint_states": 740,
+    "/crane_plus_arm_controller/joint_trajectory": 111,
+    "/crane_plus_gripper_controller/joint_trajectory": 111
+   }
+  },
+  {
+   "bag": "/home/ubuntu/guide_runs/bags/guide_N_B_lin/ep003",
+   "frames": 99,
+   "trimmed_start_frames": 11,
+   "sim_start": 315.30300000000005,
+   "sim_end": 320.252,
+   "n_msgs": {
+    "/joint_states": 751,
+    "/crane_plus_arm_controller/joint_trajectory": 111,
+    "/crane_plus_gripper_controller/joint_trajectory": 111
+   }
+  },
+  {
+   "bag": "/home/ubuntu/guide_runs/bags/guide_N_B_lin/ep004",
+   "frames": 99,
+   "trimmed_start_frames": 12,
+   "sim_start": 328.37100000000004,
+   "sim_end": 333.271,
+   "n_msgs": {
+    "/joint_states": 726,
+    "/crane_plus_arm_controller/joint_trajectory": 111,
+    "/crane_plus_gripper_controller/joint_trajectory": 111
+   }
+  },
+  {
+   "bag": "/home/ubuntu/guide_runs/bags/guide_N_B_lin/ep005",
+   "frames": 100,
+   "trimmed_start_frames": 11,
+   "sim_start": 341.16,
+   "sim_end": 346.11,
+   "n_msgs": {
+    "/joint_states": 727,
+    "/crane_plus_arm_controller/joint_trajectory": 111,
+    "/crane_plus_gripper_controller/joint_trajectory": 111
+   }
+  },
+  {
+   "bag": "/home/ubuntu/guide_runs/bags/guide_N_B_lin/ep006",
+   "frames": 99,
+   "trimmed_start_frames": 11,
+   "sim_start": 353.98900000000003,
+   "sim_end": 358.93800000000005,
+   "n_msgs": {
+    "/joint_states": 741,
+    "/crane_plus_arm_controller/joint_trajectory": 111,
+    "/crane_plus_gripper_controller/joint_trajectory": 111
+   }
+  },
+  {
+   "bag": "/home/ubuntu/guide_runs/bags/guide_N_B_lin/ep007",
+   "frames": 99,
+   "trimmed_start_frames": 12,
+   "sim_start": 367.57900000000006,
+   "sim_end": 372.47900000000004,
+   "n_msgs": {
+    "/joint_states": 772,
+    "/crane_plus_arm_controller/joint_trajectory": 111,
+    "/crane_plus_gripper_controller/joint_trajectory": 111
+   }
+  },
+  {
+   "bag": "/home/ubuntu/guide_runs/bags/guide_N_B_lin/ep008",
+   "frames": 98,
+   "trimmed_start_frames": 12,
+   "sim_start": 380.73600000000005,
+   "sim_end": 385.63500000000005,
+   "n_msgs": {
+    "/joint_states": 763,
+    "/crane_plus_arm_controller/joint_trajectory": 111,
+    "/crane_plus_gripper_controller/joint_trajectory": 111
+   }
+  },
+  {
+   "bag": "/home/ubuntu/guide_runs/bags/guide_N_B_lin/ep009",
+   "frames": 99,
+   "trimmed_start_frames": 11,
+   "sim_start": 393.46500000000003,
+   "sim_end": 398.41400000000004,
+   "n_msgs": {
+    "/joint_states": 719,
+    "/crane_plus_arm_controller/joint_trajectory": 111,
+    "/crane_plus_gripper_controller/joint_trajectory": 111
+   }
+  },
+  {
+   "bag": "/home/ubuntu/guide_runs/bags/guide_N_B_lin/ep010",
+   "frames": 100,
+   "trimmed_start_frames": 11,
+   "sim_start": 407.035,
+   "sim_end": 411.985,
+   "n_msgs": {
+    "/joint_states": 772,
+    "/crane_plus_arm_controller/joint_trajectory": 111,
+    "/crane_plus_gripper_controller/joint_trajectory": 111
+   }
+  },
+  {
+   "bag": "/home/ubuntu/guide_runs/bags/guide_N_B_lin/ep011",
+   "frames": 99,
+   "trimmed_start_frames": 11,
+   "sim_start": 419.50800000000004,
+   "sim_end": 424.45700000000005,
+   "n_msgs": {
+    "/joint_states": 713,
+    "/crane_plus_arm_controller/joint_trajectory": 111,
+    "/crane_plus_gripper_controller/joint_trajectory": 111
+   }
+  },
+  {
+   "bag": "/home/ubuntu/guide_runs/bags/guide_N_B_lin/ep012",
+   "frames": 99,
+   "trimmed_start_frames": 11,
+   "sim_start": 431.821,
+   "sim_end": 436.77000000000004,
+   "n_msgs": {
+    "/joint_states": 719,
+    "/crane_plus_arm_controller/joint_trajectory": 111,
+    "/crane_plus_gripper_controller/joint_trajectory": 111
+   }
+  },
+  {
+   "bag": "/home/ubuntu/guide_runs/bags/guide_N_B_lin/ep013",
+   "frames": 100,
+   "trimmed_start_frames": 11,
+   "sim_start": 444.16600000000005,
+   "sim_end": 449.11600000000004,
+   "n_msgs": {
+    "/joint_states": 703,
+    "/crane_plus_arm_controller/joint_trajectory": 111,
+    "/crane_plus_gripper_controller/joint_trajectory": 111
+   }
+  },
+  {
+   "bag": "/home/ubuntu/guide_runs/bags/guide_N_B_lin/ep014",
+   "frames": 99,
+   "trimmed_start_frames": 12,
+   "sim_start": 456.7130000000001,
+   "sim_end": 461.61300000000006,
+   "n_msgs": {
+    "/joint_states": 701,
+    "/crane_plus_arm_controller/joint_trajectory": 111,
+    "/crane_plus_gripper_controller/joint_trajectory": 111
+   }
+  },
+  {
+   "bag": "/home/ubuntu/guide_runs/bags/guide_N_B_lin/ep015",
+   "frames": 99,
+   "trimmed_start_frames": 12,
+   "sim_start": 469.08200000000005,
+   "sim_end": 473.982,
+   "n_msgs": {
+    "/joint_states": 721,
+    "/crane_plus_arm_controller/joint_trajectory": 111,
+    "/crane_plus_gripper_controller/joint_trajectory": 111
+   }
+  },
+  {
+   "bag": "/home/ubuntu/guide_runs/bags/guide_N_B_lin/ep016",
+   "frames": 100,
+   "trimmed_start_frames": 11,
+   "sim_start": 482.32700000000006,
+   "sim_end": 487.27700000000004,
+   "n_msgs": {
+    "/joint_states": 772,
+    "/crane_plus_arm_controller/joint_trajectory": 111,
+    "/crane_plus_gripper_controller/joint_trajectory": 111
+   }
+  },
+  {
+   "bag": "/home/ubuntu/guide_runs/bags/guide_N_B_lin/ep017",
+   "frames": 100,
+   "trimmed_start_frames": 11,
+   "sim_start": 494.31300000000005,
+   "sim_end": 499.26300000000003,
+   "n_msgs": {
+    "/joint_states": 703,
+    "/crane_plus_arm_controller/joint_trajectory": 111,
+    "/crane_plus_gripper_controller/joint_trajectory": 111
+   }
+  },
+  {
+   "bag": "/home/ubuntu/guide_runs/bags/guide_N_B_lin/ep018",
+   "frames": 99,
+   "trimmed_start_frames": 11,
+   "sim_start": 506.463,
+   "sim_end": 511.41200000000003,
+   "n_msgs": {
+    "/joint_states": 711,
+    "/crane_plus_arm_controller/joint_trajectory": 111,
+    "/crane_plus_gripper_controller/joint_trajectory": 111
+   }
+  },
+  {
+   "bag": "/home/ubuntu/guide_runs/bags/guide_N_B_lin/ep019",
+   "frames": 99,
+   "trimmed_start_frames": 11,
+   "sim_start": 518.382,
+   "sim_end": 523.331,
+   "n_msgs": {
+    "/joint_states": 698,
+    "/crane_plus_arm_controller/joint_trajectory": 111,
+    "/crane_plus_gripper_controller/joint_trajectory": 111
+   }
+  }
+ ]
+}

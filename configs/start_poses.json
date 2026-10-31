@@ -1,0 +1,466 @@
+{
+ "created": "2026-10-25T21:08:50",
+ "method": "random.Random(seed).uniform \u3092\u95a2\u7bc0\u3054\u3068\u306b\u9806\u306b\u547c\u3073\u3001\u5c0f\u6570\u7b2c4\u4f4d\u306b\u4e38\u3081\u308b\u3002\u91cd\u8907\u30fb\u9664\u5916\u59ff\u52e2\u306f\u6368\u3066\u3066\u5f15\u304d\u76f4\u3059",
+ "ranges": {
+  "crane_plus_joint1": [
+   -0.15,
+   0.15
+  ],
+  "crane_plus_joint3": [
+   0.0,
+   0.1
+  ]
+ },
+ "fixed": {
+  "crane_plus_joint2": 0.0,
+  "crane_plus_joint4": 0.0
+ },
+ "digits": 4,
+ "seeds": {
+  "train": 101,
+  "dev": 202,
+  "eval": 303
+ },
+ "excluded": [
+  {
+   "crane_plus_joint1": 0.0,
+   "crane_plus_joint3": 0.0
+  },
+  {
+   "crane_plus_joint1": 0.15,
+   "crane_plus_joint3": 0.05
+  },
+  {
+   "crane_plus_joint1": -0.15,
+   "crane_plus_joint3": 0.1
+  }
+ ],
+ "lists": {
+  "train": [
+   {
+    "id": "train00",
+    "crane_plus_joint1": 0.0243,
+    "crane_plus_joint3": 0.0195,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "train01",
+    "crane_plus_joint1": 0.1396,
+    "crane_plus_joint3": 0.0924,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "train02",
+    "crane_plus_joint1": -0.0099,
+    "crane_plus_joint3": 0.0663,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "train03",
+    "crane_plus_joint1": -0.0856,
+    "crane_plus_joint3": 0.0222,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "train04",
+    "crane_plus_joint1": -0.0634,
+    "crane_plus_joint3": 0.0692,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "train05",
+    "crane_plus_joint1": -0.0863,
+    "crane_plus_joint3": 0.0971,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "train06",
+    "crane_plus_joint1": -0.1289,
+    "crane_plus_joint3": 0.0193,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "train07",
+    "crane_plus_joint1": -0.1233,
+    "crane_plus_joint3": 0.077,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "train08",
+    "crane_plus_joint1": -0.04,
+    "crane_plus_joint3": 0.0472,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "train09",
+    "crane_plus_joint1": -0.0522,
+    "crane_plus_joint3": 0.0637,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "train10",
+    "crane_plus_joint1": -0.0288,
+    "crane_plus_joint3": 0.0208,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "train11",
+    "crane_plus_joint1": -0.021,
+    "crane_plus_joint3": 0.0304,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "train12",
+    "crane_plus_joint1": -0.1168,
+    "crane_plus_joint3": 0.0823,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "train13",
+    "crane_plus_joint1": 0.054,
+    "crane_plus_joint3": 0.0665,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "train14",
+    "crane_plus_joint1": 0.1147,
+    "crane_plus_joint3": 0.0395,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "train15",
+    "crane_plus_joint1": -0.0362,
+    "crane_plus_joint3": 0.0423,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "train16",
+    "crane_plus_joint1": -0.0286,
+    "crane_plus_joint3": 0.0669,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "train17",
+    "crane_plus_joint1": -0.148,
+    "crane_plus_joint3": 0.0464,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "train18",
+    "crane_plus_joint1": 0.0105,
+    "crane_plus_joint3": 0.0346,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "train19",
+    "crane_plus_joint1": -0.1434,
+    "crane_plus_joint3": 0.0705,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   }
+  ],
+  "dev": [
+   {
+    "id": "dev00",
+    "crane_plus_joint1": 0.0792,
+    "crane_plus_joint3": 0.0645,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "dev01",
+    "crane_plus_joint1": -0.0272,
+    "crane_plus_joint3": 0.0198,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "dev02",
+    "crane_plus_joint1": 0.053,
+    "crane_plus_joint3": 0.0969,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "dev03",
+    "crane_plus_joint1": -0.0217,
+    "crane_plus_joint3": 0.0851,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "dev04",
+    "crane_plus_joint1": -0.1392,
+    "crane_plus_joint3": 0.0528,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "dev05",
+    "crane_plus_joint1": -0.0895,
+    "crane_plus_joint3": 0.0494,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "dev06",
+    "crane_plus_joint1": 0.0334,
+    "crane_plus_joint3": 0.0856,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "dev07",
+    "crane_plus_joint1": 0.0069,
+    "crane_plus_joint3": 0.0869,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "dev08",
+    "crane_plus_joint1": -0.052,
+    "crane_plus_joint3": 0.0128,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "dev09",
+    "crane_plus_joint1": -0.0105,
+    "crane_plus_joint3": 0.0715,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "dev10",
+    "crane_plus_joint1": 0.0624,
+    "crane_plus_joint3": 0.0037,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "dev11",
+    "crane_plus_joint1": -0.0754,
+    "crane_plus_joint3": 0.0254,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "dev12",
+    "crane_plus_joint1": -0.0085,
+    "crane_plus_joint3": 0.0862,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "dev13",
+    "crane_plus_joint1": -0.0687,
+    "crane_plus_joint3": 0.0046,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "dev14",
+    "crane_plus_joint1": 0.1194,
+    "crane_plus_joint3": 0.0869,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "dev15",
+    "crane_plus_joint1": 0.0812,
+    "crane_plus_joint3": 0.0039,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "dev16",
+    "crane_plus_joint1": -0.0718,
+    "crane_plus_joint3": 0.0177,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "dev17",
+    "crane_plus_joint1": 0.1245,
+    "crane_plus_joint3": 0.0125,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "dev18",
+    "crane_plus_joint1": -0.1118,
+    "crane_plus_joint3": 0.0221,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "dev19",
+    "crane_plus_joint1": 0.0873,
+    "crane_plus_joint3": 0.0198,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   }
+  ],
+  "eval": [
+   {
+    "id": "eval00",
+    "crane_plus_joint1": -0.1405,
+    "crane_plus_joint3": 0.0969,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "eval01",
+    "crane_plus_joint1": -0.0915,
+    "crane_plus_joint3": 0.0994,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "eval02",
+    "crane_plus_joint1": 0.134,
+    "crane_plus_joint3": 0.0259,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "eval03",
+    "crane_plus_joint1": 0.0049,
+    "crane_plus_joint3": 0.0398,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "eval04",
+    "crane_plus_joint1": -0.0271,
+    "crane_plus_joint3": 0.079,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "eval05",
+    "crane_plus_joint1": 0.0983,
+    "crane_plus_joint3": 0.0257,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "eval06",
+    "crane_plus_joint1": 0.0132,
+    "crane_plus_joint3": 0.0686,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "eval07",
+    "crane_plus_joint1": 0.0282,
+    "crane_plus_joint3": 0.0121,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "eval08",
+    "crane_plus_joint1": -0.0327,
+    "crane_plus_joint3": 0.0493,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "eval09",
+    "crane_plus_joint1": 0.1272,
+    "crane_plus_joint3": 0.0822,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "eval10",
+    "crane_plus_joint1": 0.0524,
+    "crane_plus_joint3": 0.028,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "eval11",
+    "crane_plus_joint1": 0.1316,
+    "crane_plus_joint3": 0.0229,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "eval12",
+    "crane_plus_joint1": -0.0487,
+    "crane_plus_joint3": 0.0157,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "eval13",
+    "crane_plus_joint1": 0.0267,
+    "crane_plus_joint3": 0.0796,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "eval14",
+    "crane_plus_joint1": 0.0605,
+    "crane_plus_joint3": 0.0827,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "eval15",
+    "crane_plus_joint1": 0.0607,
+    "crane_plus_joint3": 0.0653,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "eval16",
+    "crane_plus_joint1": -0.0746,
+    "crane_plus_joint3": 0.0959,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "eval17",
+    "crane_plus_joint1": 0.1471,
+    "crane_plus_joint3": 0.0733,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "eval18",
+    "crane_plus_joint1": 0.1491,
+    "crane_plus_joint3": 0.0884,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   },
+   {
+    "id": "eval19",
+    "crane_plus_joint1": 0.1132,
+    "crane_plus_joint3": 0.0757,
+    "crane_plus_joint2": 0.0,
+    "crane_plus_joint4": 0.0
+   }
+  ]
+ }
+}

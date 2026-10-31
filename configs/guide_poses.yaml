@@ -1,0 +1,21 @@
+# 案内動作の目標姿勢（関節名で定義する。単位 rad）
+# 方向名は joint1 の符号で P（正）/ N（負）とし、画面上の左右は camera.yaml のカメラから見て決める。
+# ここの値はデータ収集・本評価の前に固定し、ACT の結果を見てから変更しない。
+directions:
+  P:
+    crane_plus_joint1: 0.8
+    crane_plus_joint2: 0.0
+    crane_plus_joint3: 0.6
+    crane_plus_joint4: 0.0
+  N:
+    crane_plus_joint1: -0.8
+    crane_plus_joint2: 0.0
+    crane_plus_joint3: 0.6
+    crane_plus_joint4: 0.0
+# 基準初期姿勢（Stage A のデモと評価の開始姿勢）
+home:
+  crane_plus_joint1: 0.0
+  crane_plus_joint2: 0.0
+  crane_plus_joint3: 0.0
+  crane_plus_joint4: 0.0
+gripper: -0.5236  # 開いた一定値（teleop_keyboard の GRIPPER_OPEN と同じ）

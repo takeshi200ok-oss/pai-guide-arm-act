@@ -1,0 +1,10 @@
+# 大きな成果物はリポジトリに入れない（../guide_arm_backup/ に退避）
+*.db3
+*.safetensors
+*.controller.log
+__pycache__/
+# 表紙画像・BGM は第三者の素材なので入れない（make_video.py に引数で渡す）
+*.mp3
+*.wav
+*.m4a
+cover*.jpg

@@ -1,0 +1,7 @@
+# 動画・確認画像用の Gazebo GUI カメラ（ロボットの -x 側から +x 向きに見る）
+# このカメラから見て: N 板（青, +y）が画面左、P 板（橙, -y）が画面右。
+# 画面上の名前: N = 「左」, P = 「右」
+position: {x: -0.62, y: 0.0, z: 1.36}
+orientation: {w: 0.9950, x: 0.0, y: 0.0998, z: 0.0}  # pitch 0.2 rad（やや見下ろす）
+screen_label: {N: left, P: right}
+capture: {x: 0, y: 110, width: 582, height: 770}  # x11grab で切り出す 3D 表示の範囲（画面 1920x1080）

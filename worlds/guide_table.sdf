@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<!--
+  crane_plus_gazebo/worlds/table.sdf (RT Corporation, Apache-2.0) を基に変更:
+   - 木のキューブを外す（今回のタスクで使わないため）
+   - 案内板を2枚追加（見た目だけ。衝突・質量なしの static モデルで、ロボットの動力学に影響しない）
+  板は joint1 = ±0.8 rad, joint3 = +0.6 rad のときの手先の向き（方位 ±(π-0.8)）の先、
+  ロボット根元から水平 0.30 m に置く。P 板（橙）が joint1 正方向、N 板（青）が負方向。
+-->
+<sdf version="1.6">
+  <world name="default">
+    <physics name="1ms" type="ignored">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+    <plugin filename="ignition-gazebo-physics-system" name="ignition::gazebo::systems::Physics"/>
+    <plugin filename="ignition-gazebo-user-commands-system" name="ignition::gazebo::systems::UserCommands"/>
+    <plugin filename="ignition-gazebo-scene-broadcaster-system" name="ignition::gazebo::systems::SceneBroadcaster"/>
+
+    <include>
+      <uri>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Sun</uri>
+    </include>
+    <include>
+      <uri>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Ground%20Plane</uri>
+    </include>
+    <include>
+      <uri>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Table</uri>
+      <pose>0.29 0 0 0 0 1.5708</pose>
+    </include>
+
+    <!-- P 板: 中心 (-0.209, -0.215)、ロボット側を向く（yaw = 0.8） -->
+    <model name="guide_board_P">
+      <static>true</static>
+      <pose>-0.209 -0.215 1.015 0 0 0.8</pose>
+      <link name="link">
+        <visual name="pole">
+          <pose>0 0 0.07 0 0 0</pose>
+          <geometry><cylinder><radius>0.006</radius><length>0.14</length></cylinder></geometry>
+          <material><ambient>0.3 0.3 0.3 1</ambient><diffuse>0.3 0.3 0.3 1</diffuse></material>
+        </visual>
+        <visual name="board">
+          <pose>0 0 0.22 0 0 0</pose>
+          <geometry><box><size>0.01 0.16 0.16</size></box></geometry>
+          <material><ambient>1.0 0.45 0.0 1</ambient><diffuse>1.0 0.45 0.0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- N 板: 中心 (-0.209, +0.215)、ロボット側を向く（yaw = -0.8） -->
+    <model name="guide_board_N">
+      <static>true</static>
+      <pose>-0.209 0.215 1.015 0 0 -0.8</pose>
+      <link name="link">
+        <visual name="pole">
+          <pose>0 0 0.07 0 0 0</pose>
+          <geometry><cylinder><radius>0.006</radius><length>0.14</length></cylinder></geometry>
+          <material><ambient>0.3 0.3 0.3 1</ambient><diffuse>0.3 0.3 0.3 1</diffuse></material>
+        </visual>
+        <visual name="board">
+          <pose>0 0 0.22 0 0 0</pose>
+          <geometry><box><size>0.01 0.16 0.16</size></box></geometry>
+          <material><ambient>0.1 0.35 1.0 1</ambient><diffuse>0.1 0.35 1.0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+  </world>
+</sdf>

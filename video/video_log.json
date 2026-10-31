@@ -1,0 +1,102 @@
+{
+ "segments": [
+  {
+   "segment": "00_cover.mp4",
+   "duration": 4
+  },
+  {
+   "segment": "01_intro.mp4",
+   "duration": 18
+  },
+  {
+   "segment": "02_demo_N.mp4",
+   "duration": 15,
+   "clip": "act_N_A_chunk_rec.mp4",
+   "clip_start_s": 22.82,
+   "trial_status": "success",
+   "reach_time": 2.7250000000000014,
+   "rtf": 0.6287998303217469
+  },
+  {
+   "segment": "03_demo_P.mp4",
+   "duration": 15,
+   "clip": "act_P_A_chunk_rec.mp4",
+   "clip_start_s": 25.18,
+   "trial_status": "success",
+   "reach_time": 2.6610000000000014,
+   "rtf": 0.602685185799122
+  },
+  {
+   "segment": "04_pipeline.mp4",
+   "duration": 18
+  },
+  {
+   "segment": "05_fail0.mp4",
+   "duration": 12
+  },
+  {
+   "segment": "06_fail1.mp4",
+   "duration": 12
+  },
+  {
+   "segment": "07_fail2.mp4",
+   "duration": 11
+  },
+  {
+   "segment": "08_cmp0.mp4",
+   "duration": 15
+  },
+  {
+   "segment": "09_cmp1.mp4",
+   "duration": 15
+  },
+  {
+   "segment": "10_conclusion.mp4",
+   "duration": 18
+  }
+ ],
+ "total_s": 153.0,
+ "cover": true,
+ "bgm": {
+  "tempo": 0.9056,
+  "trim": [
+   0.53,
+   138.174
+  ],
+  "gain_db": -8.0
+ },
+ "comparison_rows": {
+  "P_A": [
+   20,
+   20,
+   2.407100000000007,
+   0.0008457398156743734
+  ],
+  "P_B": [
+   20,
+   20,
+   2.6970999999999923,
+   0.006543159261606979
+  ],
+  "N_A": [
+   20,
+   20,
+   2.586800000000013,
+   0.0060494522677994045
+  ],
+  "N_B": [
+   20,
+   20,
+   3.223950000000027,
+   0.010235605234292788
+  ]
+ },
+ "paired": {
+  "a_only": 0,
+  "b_only": 0
+ },
+ "reach_diff_B_minus_A": {
+  "P": 0.2899999999999855,
+  "N": 0.637150000000014
+ }
+}
