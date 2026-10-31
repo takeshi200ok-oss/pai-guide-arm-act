@@ -4,7 +4,7 @@ Gazebo 上の CRANE+ V2 が、左右に置いた案内板（左＝青、右＝�
 **スクリプトで生成した実演データから ACT（Action Chunking with Transformers）で学習**し、**CPU のみ**で実行・評価したものです。
 Physical AI 応用編1（東京大学 松尾・岩澤研究室）の最終課題として作成しました。
 
-- 動画: （YouTube の URL は公開後に記入）
+- 動画: https://youtu.be/RQfaNdsQ9cc （YouTube）
 - 学習済みモデル: GitHub Releases v1.0.0（https://github.com/takeshi200ok-oss/pai-guide-arm-act/releases/tag/v1.0.0）
 - 説明資料（PDF）: 提出物として別に提出
 
